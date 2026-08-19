@@ -1,0 +1,17 @@
+//Write a Java program that finds and prints the largest of three predefined numbers using if-else statements.
+
+class Sol7 {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 25;
+        int c = 15;
+
+        if (a >= b && a >= c) {
+            System.out.println("Largest number = " + a);
+        } else if (b >= a && b >= c) {
+            System.out.println("Largest number = " + b);
+        } else {
+            System.out.println("Largest number = " + c);
+        }
+    }
+}
